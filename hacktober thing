@@ -31,7 +31,10 @@ while True:
       feelings_list.append("angry")
       encouragement_list.append("to sleep it off")
       counter += 1
-
+if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("talk to someone")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand."
